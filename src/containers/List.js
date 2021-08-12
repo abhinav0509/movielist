@@ -6,7 +6,7 @@ class List extends Component {
   render() {
     return (
       <>
-        <h1>Movie List</h1>;
+        <h1>Movie List Component</h1>;
         <Card />
       </>
     );
