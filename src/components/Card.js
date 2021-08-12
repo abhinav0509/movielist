@@ -1,9 +1,9 @@
 import React from "react";
 
-class Card extends Component {
+class Card extends React.Component {
   state = {};
   render() {
-    return <h1>Inside Card Component</h1>;
+    return <h3>Inside Card Component</h3>;
   }
 }
 

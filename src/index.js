@@ -7,7 +7,7 @@ import "./index.css";
 const App = () => {
   return (
     <div>
-      <h2>Movie List</h2>
+      <h1>Inside App</h1>
       <List />
     </div>
   );

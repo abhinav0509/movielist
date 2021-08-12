@@ -1,5 +1,6 @@
 const path = require("path");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+
 module.exports = {
   entry: "./src/index.js",
   output: {
@@ -11,6 +12,7 @@ module.exports = {
     port: 3010,
     watchContentBase: true,
   },
+
   module: {
     rules: [
       {
